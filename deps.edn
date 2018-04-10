@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps
+ {org.clojure/clojure {:mvn/version "1.10.0-alpha4"}
+  org.clojure/clojurescript {:mvn/version "1.10.238"}
+  johnmn3/cljs-main-code-splitting
+    {:git/url "https://github.com/johnmn3/cljs-main-code-splitting.git"
+     :sha "2a2ff0a68bf92ae3ccb2ff9aedf40ee5eee3a5b8"}}}

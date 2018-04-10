@@ -1,0 +1,26 @@
+{:watch "src"
+ :output-dir "out"
+ :asset-path "/out"
+ :optimizations :none
+ :source-map true
+ :browser-repl true
+ :modules
+  {
+   :mod-base
+     {:entries #{mod-base.main}
+      :output-to "out/mod_base.js"}
+   :mod-one
+     {:entries #{mod-one.main}
+      :output-to "out/mod_one.js"}
+   :mod-two
+     {:entries #{mod-two.main}
+      :output-to "out/mod_two.js"}
+   :mod-three
+     {:entries #{mod-three.main}
+      :output-to "out/mod_three.js"}
+   :mod-acme
+     {:entries #{mod-acme.main}
+      :output-to "out/mod_acme.js"}
+   :init-acme
+     {:entries #{init-acme.core}
+      :output-to "out/main.js"}}}
